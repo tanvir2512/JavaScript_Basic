@@ -1,3 +1,7 @@
+
+
+
+
 function greetUser(user){ //passing string parameter
     console.log("Assalamu Alaikum " + user)
 }
@@ -34,4 +38,20 @@ function multply(){
 let multiplyResult=multply();
 
 console.log(multiplyResult);
+
+//////////////////////////////////////////
+console.log("Lets see the while loop")
+let i=0;
+let n=9
+while(i<n)
+{
+    console.log("Tanvir");
+    i++;
+}
+
+for(let i=0;i<=10;i++)
+{
+    console.log(i);
+
+}
 
