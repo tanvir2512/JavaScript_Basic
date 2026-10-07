@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>JavaScript DOM Concept</title>
+        <body>
+            <button onclick="sayHello()" id="myButton">Click Here</button>
+
+            <script>
+                function sayHello(){
+                alert("Hello, Thank you for clicking me!!!");                }
+           function sayHi()
+           {
+            let newButton=document.getElementById("myButton1")
+                newButton.textContent="You have succesfully clicked the button";
+           }
+           function change(){
+
+            let changeButton=document.getElementById("myButton2")
+            changeButton.textContent="Thank you for hitting me";
+           }
+           </script>
+            <button onclick="sayHi()" id="myButton1">
+                Click Me
+            </button>
+
+            <button onclick="change()" id="myButton2" style="background-color: rgb(150, 150, 222);">
+                Just hit
+            </button>
+        </body>
+    </head>
+</html>
